@@ -1,44 +1,40 @@
-# Machine Learning Portfolio Notebook
+# Machine Learning Study Notebook
 
-This repository contains a single Jupyter notebook that presents a compact machine learning classification project in a resume-friendly format.
+This repository contains a single Jupyter notebook that summarizes hands-on machine learning practice with `scikit-learn`.
 
-## Goal
-
-Solve a prediction problem by classifying wine samples into target classes based on physicochemical measurements.
-
-## Main Notebook
+## Notebook
 
 - `machine_learning.ipynb`
 
-Notebook structure:
+## What It Covers
 
-1. Problem Definition
-2. Data Description
-3. Preprocessing
-4. Model Application
-5. Result Interpretation
+- classification with K-Nearest Neighbors
+- train/test split
+- preprocessing and feature scaling
+- regression and polynomial regression
+- logistic regression
+- stochastic gradient descent
+- decision trees
+- validation and grid search
+
+## Resume-Friendly Summary
+
+This notebook shows practical machine learning experience with:
+
+- supervised learning workflows
+- data preprocessing and scaling
+- model training and evaluation
+- comparing different machine learning algorithms
+- basic hyperparameter tuning and validation
 
 ## Models Used
 
+- K-Nearest Neighbors
+- Linear Regression
 - Logistic Regression
-- Random Forest
+- SGDClassifier
+- Decision Tree
 
-## Result
+## Notes
 
-- Representative portfolio result: `97.2%` accuracy with Logistic Regression
-- Additional comparison model: Random Forest
-
-## What This Project Shows
-
-- understanding of supervised learning workflows
-- structured data preprocessing
-- feature scaling and model preparation
-- model comparison and evaluation
-- interpretation of classification results
-
-## Tech Stack
-
-- Python
-- pandas
-- scikit-learn
-- matplotlib
+The notebook is kept close to the original study flow so the code remains recognizable, while this README makes it easier to describe the work in a resume or GitHub portfolio.
